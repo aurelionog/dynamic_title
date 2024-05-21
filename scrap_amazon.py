@@ -18,7 +18,8 @@ def generate_product_description(product_details, demographic_info):
              f"tailored to the demographic group described. \n\n" \
              f"Product Details: \n{product_details_formatted}\n\n" \
              f"Demographic Information: \n{demographic_info}\n\n" \
-             f"Output as JSON Title, SEO Metadata, Description: \n"
+             f"Output as JSON (Title, SEO Metadata, Description): \n"
+
 
 
     response = openai.chat.completions.create(
